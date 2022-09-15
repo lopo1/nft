@@ -124,7 +124,7 @@ contract NFT is ERC721PresetMinterPauserAutoId {
     /* =================================== Mutable Functions START ================================ */
     
     function safeMint(uint256 class,uint256 number,bytes32[] calldata proofs) payable external {
-        require(startTime<=block.timestamp  && startTime != 0,"Presale hasn't started yet");
+        require(startTime<=block.timestamp  && startTime == 0,"Presale hasn't started yet");
         require(endTime>=block.timestamp,"Pre -sale has ended");
         bytes32 _leaf = keccak256(abi.encodePacked(_msgSender()));
         bool _verify = MerkleProof.verify(proofs, root, _leaf);
