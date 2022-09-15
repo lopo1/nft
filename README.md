@@ -14,7 +14,7 @@ npx hardhat run scripts/deploy.js
 
 ## 公共说明
 - nft类型一共只有3种class 1 普通NFT,2 中等NFT,3 高级NFT
-- rinkeby NFT 合约地址 0x5fD8BAfa6a03228E6bed8019C9Dccbe5749d8347
+- rinkeby NFT 合约地址 0x04fb6BdcBF4a106a4eB4b0b1ed0Ff6d5C133C01E
 
 ```
  struct NFTInfo{
