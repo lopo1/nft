@@ -1,7 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 
-const DEPLOY_PRIVATE_KEY = "b5805560a956416bbfa00efde602f58b60d941122ca383e7e858d5c7d5cbeaad";
-const ETHERSCAN_API_KEY="WVPPY3Z54BQGKA2MAZT4FFSJ131ZEX9AG1";
+const DEPLOY_PRIVATE_KEY = "";
+const ETHERSCAN_API_KEY="";
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.9",
